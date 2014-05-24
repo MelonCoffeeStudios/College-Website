@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+        <title>Aaron Griffin</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,300' rel='stylesheet' type='text/css'>	
+		<script src="http://code.jquery.com/color/jquery.color.plus-names-2.1.0.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script src="js/jquery.fittext.js"></script>
+		<script src="js/jquery.lettering.js"></script>
+		<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+		<script src="js/jquery.textillate.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+		<script>
+		$( document ).ready(function() {
+		  $.get("txt/home.txt", function(data) {
+		  $('#contentMargin').html(data);
+		  }, 'text');
+		});
+		</script>
+
+    </head>
+    <body>
+<!--
+	<div id="topDiv">
+				<img id="topHalf" src="img/topHalf.png">
+				<img id="bottomHalf" src="img/bottomHalf.png">
+		</div>-->
+	<div id="copyCont">
+		<div id="copyrightInfo"></div>
+		<div id="copyrightContent">
+				<span class="margin2">Helllo :)</span>
+		</div>	
+	</div>
+	
+		<div id="behindDiv">
+			<div id="menu" class="menu">
+				<ul>
+					<li onclick="loadContent('home');">Home</li>
+					<li onclick="loadContent('aboutMe');">About Me</li>
+					<li onclick="loadContent('skills');">Skills</li>
+					<li onclick="loadContent('history');">History</li>
+					<li onclick="window.location.assign('contactMe.php');">Contact Me</li>
+				</ul>
+			</div>
+			
+			<div id="menuButton">
+					<img src="img/menu.png" style="margin-left:45%">
+			</div>
+				
+			<div id="title" class="title">
+			<h1 class="tlt">Welcome to my website :) </h1>
+			</div>
+			
+			<div id="container">	
+				<div id="content">
+					<div id="contentMargin" class="margined">
+						<div style="text-align:center;">
+							IF YOU SEE THIS TEXT, YOUR AJAX MAY BE DISABLED. PLEASE RE-ENABLE IT TO USE THIS WEBSITE!<br>
+							Try using the <a href="http://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a>. This is also a known issue for Google Chrome. If you are you Google Chrome either try a different browser or start Google Chrome with this command "--allow-file-access-from-files".
+						</div>
+					</div>
+					
+				</div>
+				<div id="footer"></br>
+					Website designed by Aaron Griffin | <a href="mailto:aaronjgriffin96@gmail.com">aaronjgriffin96@gmail.com</a>
+					<br><div onclick="openCopyInfo();" id="copyClick" style="cursor:pointer;">Copyright Info</div>
+				</div>
+				
+			</div>
+		</div>
+    </body>
+</html>

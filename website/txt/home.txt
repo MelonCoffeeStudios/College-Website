@@ -1,0 +1,21 @@
+<span style="text-align:center;">
+<b><div style="font-size:50px;">Home</div></b>
+<p>Welcome to my website :)<br>
+Please feel free to browse around and view my many skills and traits.<br>
+<br>
+<img src="img/dp.jpg" width="300px" height="300px">
+<p> Please enjoy this complimentary picture of me :)</p>
+
+
+
+<div id="breaks"></div>
+
+
+<script>
+for(var i = 0; i < 10; i++){
+var data = $("#breaks").html();
+$("#breaks").html(data+"<br>");
+}
+</script>
+
+</span>

@@ -1,0 +1,20 @@
+<span style="text-align:center;">
+
+	<div class="h1">About Me</div>
+	<div class="p">Hi. I'm Aaron Griffin. You may know me as the future designer of <b>your</b> website...<br>
+		I am currently learning creative IT to a level 3 at DevelopEBP in Norwich. Here I have learnt and expanded my knowledge of the inner workings of web architecture. <br><br>
+		I believe that it is important to have a strong, flowing and elegant website for almost any business. As a poorly designed website <b>will</b> scare off customers...<br><br>
+		It is because of this I spend a lot of my time learning to create better and more responsive websites!
+	</div><br>
+	<div class="swagmania">"The web is changing. Are you prepared to change with it?"</div>
+	<script>
+		$('.swagmania').textillate({ in: { effect: 'rotateIn' } });
+	</script>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+</span>
